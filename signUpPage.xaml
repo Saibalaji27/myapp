@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="login.signUpPage"
+             Title="signUpPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" BackgroundColor ="Beige">
+            <Grid RowDefinitions="50,60,50,50,50,50,100"
+      ColumnDefinitions="100,*">
+
+                <Image Grid.Row="0" 
+                Grid.ColumnSpan="2"
+                Source="music.png"
+                WidthRequest="70"
+                HeightRequest="70"
+                VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 />
+                <Label Grid.Row="1"
+                   Grid.ColumnSpan="2"
+                   Text="SIGNUP"
+                    FontSize="40"
+                    FontAttributes="Bold"
+                      HorizontalOptions="Center"
+                       Margin="0,0,10,0"   
+                       />
+                
+                <Label  Grid.Row="2"
+             Grid.Column="0"
+                    Text="FIRSTNAME :"
+                    FontSize='16'
+                    FontAttributes="Bold"
+                        VerticalOptions="Center"
+                    />
+
+                <Entry Grid.Row="2"
+             Grid.Column="1"
+             x:Name="first"  
+             Placeholder="Enter your firstname" 
+             TextColor="Black"
+             PlaceholderColor="Black"
+           />
+                <Label  Grid.Row="3"
+            Grid.Column="0"
+                   Text="LASTNAME :"
+                   FontSize='16'
+                   FontAttributes="Bold"
+                       VerticalOptions="Center"
+                   />               
+                <Entry Grid.Row="3"
+              Grid.Column="1"
+              x:Name="last" 
+                       Placeholder="Enter your lastname"
+              TextColor="Black"
+              PlaceholderColor="Black"
+             />
+
+                <Label  Grid.Row="4"
+            Grid.Column="0"
+                   Text="Email :"
+                   FontSize='16'
+                   FontAttributes="Bold"
+                       VerticalOptions="Center"
+                   />
+                <Entry Grid.Row="4"
+              Grid.Column="1"
+              x:Name="email" 
+              Placeholder="Enter your email" 
+              Keyboard="Email"
+              TextColor="Black"
+              PlaceholderColor="Black"
+             />
+                <Label  Grid.Row="5"
+           Grid.Column="0"
+                  Text="PHONE NO :"
+                  FontSize='16'
+                  FontAttributes="Bold"
+                      VerticalOptions="Center"
+                  />
+                <Entry Grid.Row="5"
+             Grid.Column="1"
+             x:Name="phone" 
+             Placeholder="Enter your email" 
+             Keyboard="Numeric"
+             TextColor="Black"
+             PlaceholderColor="Black"
+            />
+                <Button Grid.Row="6"
+                        Grid.ColumnSpan="2"
+                    Text="SIGNUP"
+                    Clicked="OnSignUP"
+                    VerticalOptions="Center"
+                        BackgroundColor="Black"
+                       
+                        
+                    
+                />
+
+            </Grid>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

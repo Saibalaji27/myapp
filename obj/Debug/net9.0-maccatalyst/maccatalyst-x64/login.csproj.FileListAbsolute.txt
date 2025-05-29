@@ -255,6 +255,8 @@ C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauiimage.input
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
+C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\music.png
+C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\logo.png
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -267,6 +269,8 @@ C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\A
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\log.png
+C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\login.png
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
@@ -291,6 +295,7 @@ C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\login.Generated
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\login.AssemblyInfoInputs.cache
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\login.AssemblyInfo.cs
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\login.csproj.CoreCompileInputs.cache
+C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\login.sourcelink.json
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\XamlC.stamp
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\login.csproj.Up2Date
 C:\.net\login\login\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\login.dll

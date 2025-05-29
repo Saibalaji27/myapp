@@ -4,39 +4,72 @@
              x:Class="login.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30,50,30,0"
-            Spacing="5">
-            <Label 
+        <VerticalStackLayout Padding="30" BackgroundColor="SkyBlue" >
+            <Grid RowDefinitions="60,50,50,50,40"
+          ColumnDefinitions="200,*">
+                <Label Grid.Row="0"
+                       Grid.Column="0"
                 Text="Log in"
                 FontSize="40"
                 FontAttributes="Bold"
+                  HorizontalOptions="End"
+                   Margin="0,0,10,0"   />
                 
-                />
-            
-            <Entry 
-               
-           Placeholder="Enter your username" 
-               />
-            <Entry 
-              
-            Placeholder="Enter your password" 
-                 /> 
+                <Image Grid.Row="0" 
+                Grid.Column="1"
+                Source="log.png"
+                WidthRequest="40"
+                HeightRequest="50"
+                VerticalOptions="CenterAndExpand"
+                 HorizontalOptions="Start"
+                 />
 
-            <Button
-                x:Name="Login"
-                Text="LOGIN" 
-                Clicked="OnLoginClicked"
+                <Entry Grid.Row="1"
+                 Grid.ColumnSpan="2"
+                 x:Name="username"  
+                 Placeholder="Enter your username" 
+                 TextColor="Black"
+                 PlaceholderColor="Black"
+               />
+                <Entry Grid.Row="2"
+                  Grid.ColumnSpan="2"
+                  x:Name="password" 
+                  Placeholder="Enter your password" 
+                  IsPassword="True"
+                  TextColor="Black"
+                  PlaceholderColor="Black"
+                 />
+
+                <Button Grid.Row="3"
+                 Grid.ColumnSpan="2"
+                 x:Name="Login"
+                 Text="LOGIN" 
+                 Clicked="OnLoginClicked"
                 BackgroundColor="Blue"
                 HorizontalOptions="Fill" />
-            <Label 
-                Text="or , signup"
+
+                <Label Grid.Row="4"
+                      Grid.ColumnSpan="2" 
+                Text="or, signup"
                 TextColor="Black"
                 FontAttributes="Bold"
                 VerticalTextAlignment="Center"
-                HorizontalTextAlignment="Center"
-                />
-        </VerticalStackLayout>
-    </ScrollView>
+                HorizontalTextAlignment="Center">
 
+                    <Label.GestureRecognizers>
+
+                    <TapGestureRecognizer
+                               Tapped="SignupPage"
+                               NumberOfTapsRequired="1"/>
+
+                    </Label.GestureRecognizers>
+                </Label>
+
+
+            </Grid>
+            
+        </VerticalStackLayout>
+        
+    </ScrollView>
+    
 </ContentPage>

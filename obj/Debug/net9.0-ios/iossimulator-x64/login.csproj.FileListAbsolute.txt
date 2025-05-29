@@ -302,6 +302,7 @@ C:\.net\login\login\obj\Debug\net9.0-ios\iossimulator-x64\login.GeneratedMSBuild
 C:\.net\login\login\obj\Debug\net9.0-ios\iossimulator-x64\login.AssemblyInfoInputs.cache
 C:\.net\login\login\obj\Debug\net9.0-ios\iossimulator-x64\login.AssemblyInfo.cs
 C:\.net\login\login\obj\Debug\net9.0-ios\iossimulator-x64\login.csproj.CoreCompileInputs.cache
+C:\.net\login\login\obj\Debug\net9.0-ios\iossimulator-x64\login.sourcelink.json
 C:\.net\login\login\obj\Debug\net9.0-ios\iossimulator-x64\XamlC.stamp
 C:\.net\login\login\obj\Debug\net9.0-ios\iossimulator-x64\login.csproj.Up2Date
 C:\.net\login\login\obj\Debug\net9.0-ios\iossimulator-x64\login.dll
