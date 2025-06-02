@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net9.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = login
+build_property.ProjectDir = C:\.net\login\login\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/.net/login/login/pages/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = login.pages.App.xaml
+build_metadata.AdditionalFiles.TargetPath = pages\App.xaml
+build_metadata.AdditionalFiles.RelativePath = pages\App.xaml
+
+[C:/.net/login/login/pages/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = login.pages.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = pages\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = pages\AppShell.xaml
+
+[C:/.net/login/login/pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = login.pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = pages\MainPage.xaml
+
+[C:/.net/login/login/pages/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = login.pages.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = pages\NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = pages\NewPage1.xaml
+
+[C:/.net/login/login/pages/signUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = login.pages.signUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = pages\signUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = pages\signUpPage.xaml
+
+[C:/.net/login/login/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = login.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/.net/login/login/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = login.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
