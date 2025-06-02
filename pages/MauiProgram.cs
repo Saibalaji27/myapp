@@ -12,7 +12,7 @@ namespace login.NewFolder
             builder
                 .UseMauiApp<App>()
                 .ConfigureSyncfusionCore()
-               
+
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

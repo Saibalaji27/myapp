@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:kit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="login.MainPage">
 
     <ScrollView>
@@ -29,8 +30,15 @@
                  x:Name="username"  
                  Placeholder="Enter your username" 
                  TextColor="Black"
-                 PlaceholderColor="Black"
-               />
+                 PlaceholderColor="Black">
+                       <Entry.Behaviors >
+                        <kit:TextValidationBehavior
+                            Flags="ValidateOnAttaching,ValidateOnValueChanged"
+                            MinimumLength="4"
+                            MaximumLength="12" />
+                         </Entry.Behaviors>
+                 </Entry>
+
                 <Entry Grid.Row="2"
                   Grid.ColumnSpan="2"
                   x:Name="password" 
