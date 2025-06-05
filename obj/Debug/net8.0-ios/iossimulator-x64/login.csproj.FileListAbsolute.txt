@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-=======
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\login.runtimeconfig.json
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\login.dll
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\login.pdb
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll
+C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Mvvm.dll
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -277,7 +276,6 @@ C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Maui.Control
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
 C:\.net\login\login\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
->>>>>>> e257d74 (version 8)
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
@@ -299,22 +297,15 @@ C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.x
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
-C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
-C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
-C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
-<<<<<<< HEAD
-C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\log.png
-C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\music.png
-C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\login.png
-C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\logo.png
-=======
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\star1.png
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\music.png
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\log.png
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\login.png
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\logo.png
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\rating.png
->>>>>>> e257d74 (version 8)
+C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
+C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.stamp
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.outputs
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
@@ -336,9 +327,7 @@ C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\login.GeneratedMSBuild
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\login.AssemblyInfoInputs.cache
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\login.AssemblyInfo.cs
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\login.csproj.CoreCompileInputs.cache
-<<<<<<< HEAD
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\login.sourcelink.json
-=======
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\XamlC.stamp
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\login.csproj.Up2Date
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\login.dll
@@ -346,4 +335,3 @@ C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\refint\login.dll
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\login.pdb
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\login.genruntimeconfig.cache
 C:\.net\login\login\obj\Debug\net8.0-ios\iossimulator-x64\ref\login.dll
->>>>>>> e257d74 (version 8)

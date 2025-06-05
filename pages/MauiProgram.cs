@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
 using Syncfusion.Maui.Core.Hosting;
+using login.viewModel;
 
 namespace login.NewFolder
 {
@@ -20,6 +21,9 @@ namespace login.NewFolder
                 });
 
             builder.UseMauiApp<App>().UseMauiCommunityToolkit();
+            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<savePageViewModel>();
+            
 
 #if DEBUG
             builder.Logging.AddDebug();

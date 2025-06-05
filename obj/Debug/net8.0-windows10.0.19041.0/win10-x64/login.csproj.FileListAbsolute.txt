@@ -7,12 +7,12 @@ C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\splashSplashS
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-400.png
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OpenSans-Regular.ttf
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OpenSans-Semibold.ttf
+C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\logo.scale-100.png
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\login.scale-100.png
+C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\star1.scale-100.png
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\music.scale-100.png
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\log.scale-100.png
-C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\logo.scale-100.png
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\rating.scale-100.png
-C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\star1.scale-100.png
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-400.png
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-200.png
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-150.png
@@ -299,6 +299,7 @@ C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\login.pdb
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -381,10 +382,6 @@ C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\en-US\Syncfus
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
-C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\.net\login\login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\login.csproj.AssemblyReference.cache
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
@@ -407,12 +404,12 @@ C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.st
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\login.scale-100.png
+C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star1.scale-100.png
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\music.scale-100.png
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\log.scale-100.png
-C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rating.scale-100.png
-C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star1.scale-100.png
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
@@ -469,6 +466,7 @@ C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.out
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\login.AssemblyInfoInputs.cache
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\login.AssemblyInfo.cs
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\login.csproj.CoreCompileInputs.cache
+C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\login.sourcelink.json
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\login.csproj.Up2Date
 C:\.net\login\login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\login.dll

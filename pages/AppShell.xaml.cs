@@ -6,7 +6,7 @@
         {
             InitializeComponent();
             
-            Routing.RegisterRoute(nameof(NewPage1), typeof(NewPage1));
+            Routing.RegisterRoute(nameof(savePage), typeof(savePage));
             Routing.RegisterRoute(nameof(signUpPage), typeof(signUpPage));
            
         }

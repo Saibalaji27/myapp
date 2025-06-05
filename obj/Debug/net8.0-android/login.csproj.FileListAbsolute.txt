@@ -30,8 +30,6 @@ C:\.net\login\login\obj\Debug\net8.0-android\mauisplash.stamp
 C:\.net\login\login\obj\Debug\net8.0-android\mauifont.stamp
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
-C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable\music.png
-C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable\logo.png
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_round.png
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_round.png
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_round.png
@@ -55,9 +53,11 @@ C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_background.png
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_background.png
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable\rating.png
-C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable\login.png
+C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable\logo.png
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable\star1.png
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable\log.png
+C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable\music.png
+C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable\login.png
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 C:\.net\login\login\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
@@ -131,6 +131,7 @@ C:\.net\login\login\obj\Debug\net8.0-android\login.GeneratedMSBuildEditorConfig.
 C:\.net\login\login\obj\Debug\net8.0-android\login.AssemblyInfoInputs.cache
 C:\.net\login\login\obj\Debug\net8.0-android\login.AssemblyInfo.cs
 C:\.net\login\login\obj\Debug\net8.0-android\login.csproj.CoreCompileInputs.cache
+C:\.net\login\login\obj\Debug\net8.0-android\login.sourcelink.json
 C:\.net\login\login\obj\Debug\net8.0-android\XamlC.stamp
 C:\.net\login\login\obj\Debug\net8.0-android\login.csproj.Up2Date
 C:\.net\login\login\obj\Debug\net8.0-android\login.dll
@@ -144,10 +145,14 @@ C:\.net\login\login\obj\Debug\net8.0-android\android\bin\com.companyname.login.a
 C:\.net\login\login\obj\Debug\net8.0-android\res\values\colors.xml
 C:\.net\login\login\obj\Debug\net8.0-android\uploadflags.txt
 C:\.net\login\login\obj\Debug\net8.0-android\resolvedassemblies.hash
+C:\.net\login\login\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
+C:\.net\login\login\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\ca\Microsoft.Maui.Controls.resources.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Maui.Core.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Maui.dll
+C:\.net\login\login\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.dll
+C:\.net\login\login\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.pdb
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\cs\Microsoft.Maui.Controls.resources.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\da\Microsoft.Maui.Controls.resources.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\de\Microsoft.Maui.Controls.resources.dll
@@ -306,7 +311,6 @@ C:\.net\login\login\obj\Debug\net8.0-android\android\assets\System.Net.WebSocket
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
-C:\.net\login\login\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
@@ -391,6 +395,8 @@ C:\.net\login\login\obj\Debug\net8.0-android\android\assets\tr\Microsoft.Maui.Co
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\uk\Microsoft.Maui.Controls.resources.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\vi\Microsoft.Maui.Controls.resources.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\WindowsBase.dll
+C:\.net\login\login\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
+C:\.net\login\login\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.Annotations.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.DiskLruCache.dll
 C:\.net\login\login\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.dll
@@ -1095,3 +1101,4 @@ C:\.net\login\login\obj\Debug\net8.0-android\stamp\_ConvertResourcesCases.stamp
 C:\.net\login\login\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\.net\login\login\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\.net\login\login\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\.net\login\login\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
