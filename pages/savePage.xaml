@@ -36,26 +36,16 @@
                           HorizontalOptions="Start"
                                FontAttributes="Bold"/>
 
-                    <picker:SfPicker Grid.Row="1"
-                                     Grid.Column="1"
-                                     HeightRequest="80"
-                                     VerticalOptions="End"
-                                     HorizontalOptions="End"
-                               picker:ItemHeight="40"
-                              
-                                     >
-                        <inputs:SfComboBox VerticalOptions="Center"
-                                            BackgroundColor="BlanchedAlmond"
-                                           DisplayMemberPath="Name" 
-                                            TextColor="Black"
-                                           SelectedItem="{Binding Country}"
-                                           ItemsSource="{Binding Options}"
-                                          />
-
-
-
-                    </picker:SfPicker> 
-                </Grid>
+                    <inputs:SfComboBox Grid.Row="1"
+                   Grid.Column="1"
+                   HeightRequest="60"
+                   VerticalOptions="Center"
+                   BackgroundColor="BlanchedAlmond"
+                   TextColor="Black"
+                   DropDownIconColor="Black"
+                   SelectedItem="{Binding Country, Mode=TwoWay}"
+                   ItemsSource="{Binding Options}" />            
+            </Grid>
            
             </Frame>
             
@@ -95,7 +85,12 @@
                     HorizontalOptions="Fill"            
                  />
 
-        
+            <Button Margin="20,20,20,0" Text="show saved data"
+   Command="{Binding ShowCommand}"
+        HorizontalOptions="Fill"            
+     />
+
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -1,0 +1,70 @@
+## Ignore build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## Rider settings
+.idea/
+
+## Visual Studio for Mac
+.vscode/
+.vscode/*
+*.pidb
+*.userprefs
+
+## VS Code
+.history/
+*.code-workspace
+
+## Build output
+*.dll
+*.exe
+*.app
+*.apk
+*.aab
+*.msi
+*.msix
+*.dmg
+*.pkg
+*.ipa
+
+## Log and database files
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+## Crash reports
+crashlytics-build.properties
+
+## MAUI-specific
+.platforms/
+Resources/**/*.designer.cs
+**/MauiProgram.g.cs
+**/*.g.cs
+**/*.g.i.cs
+**/RefitStubs.g.cs
+**/TemporaryGeneratedFile_*.cs
+**/Resizetizer/
+
+## Configuration
+appsettings.*.json
+secrets.json
+
+## NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Others
+.DS_Store
+Thumbs.db

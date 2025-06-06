@@ -2,10 +2,10 @@
 
 namespace login.model
 {
-    class newPage1Model
+    class DataModel
     {
-        public string name { get; set; }
-        public string country { get; set; }
-        public int rating { get; set; }
+        public string Name { get; set; }
+        public string Country { get; set; }
+        public int Rating { get; set; }
     }
 }

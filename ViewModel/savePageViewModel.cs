@@ -1,14 +1,11 @@
-﻿using CommunityToolkit.Maui.Views;
+﻿
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-
-using Microsoft.Maui.Controls;
-
-
-using System;
+using login.model;
 using System.Collections.ObjectModel;
-
-using System.Windows.Input;
+using System.Text.Json;
+using System.IO;
+using Microsoft.Maui.Devices;
 
 namespace login.viewModel;
 
@@ -16,47 +13,70 @@ namespace login.viewModel;
     {
     public savePageViewModel()
     {
-        Options = new() { "india", "china", "japan", "korea", "usa" };
+        Options = new ObservableCollection<string> { "India", "China", "Japan", "Korea", "USA" };
+
     }
-    //  Items = new ObservableCollection<newPage1Model>();
-    //}
 
+    public ObservableCollection<string> Options { get; set; }
+       
+        [ObservableProperty]
+          string name;
 
-    public List<string> Options { get; set; }
+        [ObservableProperty]
+        string country;
 
-    [ObservableProperty]
-      string name;
+        [ObservableProperty]
+        int rating;
 
-    [ObservableProperty]
-    string country;
+    public async Task SaveData()
+    {
+        var person = new DataModel
+        {
+            Name = name,
+            Country = country,
+            Rating = rating
+        };
 
-    [ObservableProperty]
-            int rating;
+        string json = JsonSerializer.Serialize(person);
+
+        string filePath = Path.Combine(FileSystem.AppDataDirectory, "Data.json");
+
+        await File.WriteAllTextAsync(filePath, json);
+    }
+
+    public async Task showData()
+    {
+        string filePath = Path.Combine(FileSystem.AppDataDirectory, "Data.json");
+
+        if (File.Exists(filePath))
+        {
+            string json = await File.ReadAllTextAsync(filePath);
+            var person = JsonSerializer.Deserialize<DataModel>(json);
+
+            if (person != null)
+            {
+                name = person.Name;
+                country = person.Country;
+                rating = person.Rating;
+            }
+            await Shell.Current.DisplayAlert("details","Name :" +person.Name +"-country:"+person.Country+"-rating:"+person.Rating, "OK");
+
+        }
+    }
+
 
     [RelayCommand]
-    public async Task Save()
-    {
-         await Shell.Current.CurrentPage.DisplayAlert("Title", "name :"+name+ "Country :"+country+" Rating:"+rating, "OK");
+        public async Task Save()
+        {
+             await SaveData();
         
+        }
+    [RelayCommand]
+    public async Task Show()
+    {
+        await showData();
+
     }
-
-    //void Add()
-    //{
-    //    items.Add(new newPage1Model
-    //    {
-
-    //        name = name,
-    //        country = country,
-    //        rating = rating
-    //    });
-
-    //    Name = string.Empty;
-    //    Country = string.Empty;
-    //    Rating = 0;
-    //}
-
-
-
 
 }
 
